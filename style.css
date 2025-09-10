@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+#hero {
+    background-image: url(imgs/Paraiso.avif);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 150px 50px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#hero button {
+    padding: 15px 30px;
+    font-size: 1em;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #003366;
+}
+
+.carta {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.carta img {
+    width: 100%;
+    max-height: 20px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.carta h3 {
+    margin-top: 10px;
+    color: #f7e9e9;
+}
+
+.carta button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#reserva {
+    background-color: #e8f4fa;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#reserva button {
+    padding: 12px 25px;
+    font-size: 1em;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+
+#servicios {
+    background-color: rgb(236, 222, 222);
+    color: white;
+    text-align: center;
+}
+
+#servicios .container{
+    padding: 70px 0px;
+}
+
+#servicios h2{
+    font-size: 3em;
+    margin-top: 0px;
+}
+
+#servicios .carta{
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    border-radius: 15px;
+    margin: 20px;  
+}
+
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+       0deg,
+       rgba(0,0,0,0.5),
+      rgba(0,0,0,0.3)
+    ),url(imgs/Receso.avif);
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+       0deg,
+       rgba(0,0,0,0.5),
+      rgba(0,0,0,0.3)
+    ),url(imgs/HabitacionUna.avif);
+}
+
+.carta:nth-child(4){
+    background-image: linear-gradient(
+       0deg,
+       rgba(0,0,0,0.5),
+      rgba(0,0,0,0.3)
+    ),url(imgs/HabitacionDoble.avif);
+}
+  
